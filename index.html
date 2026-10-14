@@ -160,7 +160,7 @@
       <article class="project-card reveal">
         <div class="project-header">
           <div>
-            <span class="project-period" data-i18n="project1.period">Jun 2026 — Presente</span>
+            <span class="project-period project-live" data-i18n="project1.period">Live</span>
             <h3 data-i18n="project1.title">Sistema de Balance y Operaciones para una Cadena de Carnicerías</h3>
           </div>
         </div>
@@ -196,7 +196,7 @@
       <article class="project-card reveal">
         <div class="project-header">
           <div>
-            <span class="project-period" data-i18n="project2.period">En producción</span>
+            <span class="project-period project-live" data-i18n="project2.period">Live</span>
             <h3 data-i18n="project2.title">Sistema de Gestión de Distribución Mayorista</h3>
           </div>
         </div>
@@ -224,6 +224,43 @@
           <span class="tag">Supabase</span>
           <span class="tag">PostgreSQL</span>
           <span class="tag">IA / LLM</span>
+          <span class="tag">Vercel</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-header">
+          <div>
+            <span class="project-period" data-i18n="project3.period">Ago 2026 — Presente</span>
+            <h3 data-i18n="project3.title">Producto de Punto de Venta y Facturación Electrónica para Carnicerías</h3>
+          </div>
+        </div>
+        <p class="project-desc" data-i18n="project3.p1">
+          Producto propio de gestión comercial para carnicerías, pensado desde el día uno para
+          venderse a cualquier comercio del rubro en lugar de desarrollarse a medida para uno solo.
+          El primer cliente es una cadena de 4 sucursales.
+        </p>
+        <p class="project-desc" data-i18n="project3.p2">
+          <strong>Qué hace:</strong> punto de venta rápido para despachar cortes por kilo o por
+          unidad con distintos medios de pago; apertura y cierre de turno con arqueo de caja
+          (efectivo esperado contra contado, registrando las diferencias); cuenta corriente de
+          clientes con control de límite de crédito; catálogo y precios propios por sucursal; y
+          emisión de comprobantes fiscales electrónicos ante AFIP.
+        </p>
+        <p class="project-desc" data-i18n="project3.p3">
+          <strong>Arquitectura:</strong> multi-tenant — una sola base de datos atiende a todos los
+          clientes, con los datos de cada carnicería aislados mediante Row Level Security. Dar de
+          alta un comercio nuevo es configurar su marca, sucursales, catálogo y datos fiscales, sin
+          tocar código. La facturación electrónica corre en un servicio backend separado que
+          custodia los certificados fiscales de cada cliente y nunca se expone en el navegador.
+        </p>
+        <div class="tag-list">
+          <span class="tag">Flutter Web</span>
+          <span class="tag">Supabase</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Multi-tenant / RLS</span>
+          <span class="tag">Facturación AFIP</span>
+          <span class="tag">Node.js</span>
           <span class="tag">Vercel</span>
         </div>
       </article>

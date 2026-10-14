@@ -42,13 +42,13 @@ const translations = {
     "projects.tag": "Proyectos",
     "projects.title": "Trabajo reciente",
 
-    "project1.period": "Jun 2026 — Presente",
+    "project1.period": "Live",
     "project1.title": "Sistema de Balance y Operaciones para una Cadena de Carnicerías",
     "project1.p1": "Diseñé y desarrollé una plataforma web integral para una cadena de carnicerías con 4 sucursales, reemplazando la contabilidad manual en Excel por un sistema centralizado.",
     "project1.p2": '<strong>Qué hace:</strong> registra ventas, compras y gastos diarios por sucursal; gestiona precios y cálculos de rendimiento de carne por categoría de producto; valora el stock mediante un proceso de pesaje; y calcula automáticamente el costo de mercadería vendida, la ganancia y el margen neto por sucursal, con reportes históricos entre períodos. El acceso por roles limita al personal de tienda a las operaciones diarias, mientras que el dueño ve las finanzas completas.',
     "project1.p3": '<strong>Enfoque:</strong> Desarrollo Guiado por Especificaciones — una especificación funcional y técnica exhaustiva, validada con el cliente antes de escribir código, para definir de antemano la lógica de negocio compleja (fórmulas de rendimiento, comisiones por medio de pago, arrastre de stock entre períodos).',
 
-    "project2.period": "En producción",
+    "project2.period": "Live",
     "project2.title": "Sistema de Gestión de Distribución Mayorista",
     "project2.p1": "Única desarrolladora de una PWA en producción que gestiona ventas, cuentas por cobrar, cobranzas y logística de entregas para un distribuidor mayorista de carnes.",
     "project2.li1": "App en Flutter Web (~11K líneas de código) sobre Supabase, con control de acceso basado en roles (autenticación SHA-256, 12 permisos granulares).",
@@ -56,6 +56,12 @@ const translations = {
     "project2.li3": "Módulo semanal de logística de entregas (hojas de ruta por cliente, tipo de carne y sucursal), optimizador de rutas de cobranza basado en GPS, y flujo de aprobación de pedidos.",
     "project2.li4": "Asistente con IA (Anthropic Claude) que convierte frases en lenguaje natural en acciones de entrega estructuradas, con matching difuso de clientes y un proxy server-side mediante Edge Function.",
     "project2.li5": "Desplegado en Vercel como PWA instalable para iOS/Android, con integraciones de WhatsApp y Google Maps.",
+
+    "project3.period": "Ago 2026 — Presente",
+    "project3.title": "Producto de Punto de Venta y Facturación Electrónica para Carnicerías",
+    "project3.p1": "Producto propio de gestión comercial para carnicerías, pensado desde el día uno para venderse a cualquier comercio del rubro en lugar de desarrollarse a medida para uno solo. El primer cliente es una cadena de 4 sucursales.",
+    "project3.p2": '<strong>Qué hace:</strong> punto de venta rápido para despachar cortes por kilo o por unidad con distintos medios de pago; apertura y cierre de turno con arqueo de caja (efectivo esperado contra contado, registrando las diferencias); cuenta corriente de clientes con control de límite de crédito; catálogo y precios propios por sucursal; y emisión de comprobantes fiscales electrónicos ante AFIP.',
+    "project3.p3": '<strong>Arquitectura:</strong> multi-tenant — una sola base de datos atiende a todos los clientes, con los datos de cada carnicería aislados mediante Row Level Security. Dar de alta un comercio nuevo es configurar su marca, sucursales, catálogo y datos fiscales, sin tocar código. La facturación electrónica corre en un servicio backend separado que custodia los certificados fiscales de cada cliente y nunca se expone en el navegador.',
 
     "contact.tag": "Contacto",
     "contact.title": "¿Tenés un proyecto en mente?",
@@ -110,13 +116,13 @@ const translations = {
     "projects.tag": "Projects",
     "projects.title": "Recent work",
 
-    "project1.period": "Jun 2026 — Present",
+    "project1.period": "Live",
     "project1.title": "Balance & Operations System for a Butcher Shop Chain",
     "project1.p1": "Designed and built an end-to-end web platform for a 4-location butcher shop chain, replacing manual Excel-based accounting with a centralized system.",
     "project1.p2": '<strong>What it does:</strong> tracks daily sales, purchases, and expenses per location; manages pricing and meat-yield calculations by product category; values stock through a weigh-in process; and automatically computes cost of goods sold, profit, and net margin per location — plus historical reporting across periods. Role-based access keeps store staff limited to daily operations while the owner sees full financials.',
     "project1.p3": '<strong>Approach:</strong> used Spec-Driven Development — a thorough functional and technical spec, validated with the client, before writing code — to lock down complex business logic (yield formulas, payment-method fees, stock carryover between periods) upfront.',
 
-    "project2.period": "In production",
+    "project2.period": "Live",
     "project2.title": "Wholesale Distribution Management System",
     "project2.p1": "Sole developer of a production PWA managing sales, accounts receivable, collections, and delivery logistics for a wholesale meat distributor.",
     "project2.li1": "Built a Flutter Web app (~11K LOC) on Supabase with role-based access control (SHA-256 auth, 12 granular permissions).",
@@ -124,6 +130,12 @@ const translations = {
     "project2.li3": "Built a weekly delivery-logistics module (route sheets by client, meat type, branch), a GPS-based collection-route optimizer, and an order-approval workflow.",
     "project2.li4": "Shipped an LLM-powered assistant (Anthropic Claude) that converts natural-language phrases into structured delivery actions, with fuzzy client matching and a server-side Edge Function proxy.",
     "project2.li5": "Deployed to Vercel as an installable iOS/Android PWA with WhatsApp/Google Maps integrations.",
+
+    "project3.period": "Aug 2026 — Present",
+    "project3.title": "Point-of-Sale & E-Invoicing Product for Butcher Shops",
+    "project3.p1": "An off-the-shelf retail management product for butcher shops, designed from day one to be sold to any shop in the trade rather than built for a single client. First customer: a 4-location chain.",
+    "project3.p2": '<strong>What it does:</strong> a fast point of sale for ringing up cuts by weight or by unit across payment methods; shift open/close with cash reconciliation (expected vs. counted, with discrepancies logged); customer store-credit accounts with credit-limit enforcement; per-location catalog and pricing; and electronic tax receipts issued through AFIP, the Argentine tax authority.',
+    "project3.p3": '<strong>Architecture:</strong> multi-tenant — a single database serves every customer, with each shop\'s data isolated via Row Level Security. Onboarding a new shop means configuring its branding, locations, catalog, and tax details — no code changes. E-invoicing runs in a separate backend service that holds each customer\'s tax certificates and is never exposed to the browser.',
 
     "contact.tag": "Contact",
     "contact.title": "Have a project in mind?",

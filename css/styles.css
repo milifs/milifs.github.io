@@ -399,6 +399,29 @@ a { color: inherit; text-decoration: none; }
   display: block;
   margin-bottom: 8px;
 }
+.project-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.project-live::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent-2);
+  animation: live-pulse 2.2s ease-out infinite;
+}
+@keyframes live-pulse {
+  0%   { box-shadow: 0 0 0 0 #2fe6b899; }
+  70%  { box-shadow: 0 0 0 7px #2fe6b800; }
+  100% { box-shadow: 0 0 0 0 #2fe6b800; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-live::before { animation: none; }
+}
 .project-header h3 {
   font-size: 1.25rem;
 }
