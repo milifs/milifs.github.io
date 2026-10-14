@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mili Fernández Sabaté — Desarrolladora de Software a Medida</title>
+  <meta name="description" content="Ingeniera en Informática y desarrolladora full-stack freelance. Software a medida, páginas web e integraciones con IA para negocios reales." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo">MF<span class="logo-dot">.</span>S</a>
+      <div class="nav-menu" id="nav-menu">
+        <nav class="nav-links" id="nav-links">
+          <a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a>
+          <a href="#servicios" data-i18n="nav.services">Servicios</a>
+          <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+          <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+        </nav>
+        <div class="nav-right">
+          <div class="lang-switch" id="lang-switch" role="group" aria-label="Seleccionar idioma">
+            <button type="button" data-lang="es" class="active">ES</button>
+            <button type="button" data-lang="en">EN</button>
+          </div>
+          <a href="#contacto" class="btn btn-primary nav-cta" data-i18n="nav.cta">Trabajemos juntos</a>
+        </div>
+      </div>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow reveal" data-i18n="hero.eyebrow">Salta, Argentina — Disponible para proyectos freelance</p>
+        <h1 class="hero-title reveal" data-i18n="hero.title">
+          Hola, soy Mili.<br />
+          Construyo <span class="text-gradient">software a medida</span><br />
+          para negocios reales.
+        </h1>
+        <p class="hero-subtitle reveal" data-i18n="hero.subtitle">
+          Ingeniera en Informática y desarrolladora full-stack freelance. Diseño y desarrollo
+          sistemas de gestión, plataformas web e integraciones con IA, pensados para resolver
+          el problema específico de tu negocio — no una plantilla genérica.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#proyectos" class="btn btn-primary" data-i18n="hero.cta1">Ver proyectos</a>
+          <a href="#contacto" class="btn btn-ghost" data-i18n="hero.cta2">Contactarme</a>
+        </div>
+        <div class="hero-stack reveal">
+          <span data-i18n="hero.stack1">Flutter / Dart</span>
+          <span data-i18n="hero.stack2">Supabase · PostgreSQL</span>
+          <span data-i18n="hero.stack3">Vercel</span>
+          <span data-i18n="hero.stack4">Integraciones con IA</span>
+        </div>
+      </div>
+      <div class="hero-photo-wrap reveal">
+        <div class="hero-photo-ring">
+          <img class="hero-photo" src="assets/profile.jpg" alt="Mili Fernández Sabaté" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE MI -->
+  <section class="section" id="sobre-mi">
+    <div class="container">
+      <p class="section-tag reveal" data-i18n="about.tag">Sobre mí</p>
+      <div class="about-grid">
+        <div class="reveal">
+          <h2 class="section-title" data-i18n="about.title">De la lógica del negocio al código, sin perder nada en el camino.</h2>
+          <p class="about-text" data-i18n="about.p1">
+            Soy Ingeniera en Informática (Universidad Católica de Salta) y trabajo como desarrolladora
+            full-stack freelance, construyendo software a medida para clientes que necesitan algo que
+            un sistema genérico no puede darles.
+          </p>
+          <p class="about-text" data-i18n="about.p2">
+            Mi enfoque es el <strong>Desarrollo Guiado por Especificaciones</strong>: antes de escribir
+            una sola línea de código, diseño y valido junto al cliente una especificación funcional y
+            técnica clara. Esto permite dejar bien definida la lógica compleja del negocio —fórmulas,
+            reglas, excepciones— desde el principio, y evitar sorpresas más adelante.
+          </p>
+          <p class="about-text" data-i18n="about.p3">
+            Trabajo de punta a punta: relevamiento, diseño de base de datos, desarrollo frontend y
+            backend, y despliegue en producción.
+          </p>
+        </div>
+        <div class="about-facts reveal">
+          <div class="fact-card">
+            <span class="fact-label" data-i18n="about.fact1label">Ubicación</span>
+            <span class="fact-value" data-i18n="about.fact1value">Salta, Argentina</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label" data-i18n="about.fact2label">Formación</span>
+            <span class="fact-value" data-i18n="about.fact2value">Ing. en Informática — UCASAL (2013–2018)</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label" data-i18n="about.fact3label">Modalidad</span>
+            <span class="fact-value" data-i18n="about.fact3value">Freelance / Self-employed</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label" data-i18n="about.fact4label">Stack principal</span>
+            <span class="fact-value" data-i18n="about.fact4value">Dart, Flutter Web, Supabase, PostgreSQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section section-alt" id="servicios">
+    <div class="container">
+      <p class="section-tag reveal" data-i18n="services.tag">Servicios</p>
+      <h2 class="section-title reveal" data-i18n="services.title">En qué puedo ayudarte</h2>
+      <div class="cards-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg>
+          </div>
+          <h3 data-i18n="services.card1.title">Software a medida</h3>
+          <p data-i18n="services.card1.desc">Sistemas de gestión, control de stock, facturación y reportes financieros diseñados
+            para el flujo de trabajo real de tu negocio, no al revés.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M4 9h16M9 4v16"/></svg>
+          </div>
+          <h3 data-i18n="services.card2.title">Páginas web</h3>
+          <p data-i18n="services.card2.desc">Sitios y landing pages profesionales, responsive y rápidas, para mostrar tu negocio
+            o servicio de la mejor manera posible.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+          </div>
+          <h3 data-i18n="services.card3.title">Integraciones con IA</h3>
+          <p data-i18n="services.card3.desc">Asistentes y automatizaciones con modelos de lenguaje (como Claude) conectados a tus
+            propios datos y procesos, para ahorrar tiempo en tareas repetitivas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section class="section" id="proyectos">
+    <div class="container">
+      <p class="section-tag reveal" data-i18n="projects.tag">Proyectos</p>
+      <h2 class="section-title reveal" data-i18n="projects.title">Trabajo reciente</h2>
+
+      <article class="project-card reveal">
+        <div class="project-header">
+          <div>
+            <span class="project-period" data-i18n="project1.period">Jun 2026 — Presente</span>
+            <h3 data-i18n="project1.title">Sistema de Balance y Operaciones para una Cadena de Carnicerías</h3>
+          </div>
+        </div>
+        <p class="project-desc" data-i18n="project1.p1">
+          Diseñé y desarrollé una plataforma web integral para una cadena de carnicerías con
+          4 sucursales, reemplazando la contabilidad manual en Excel por un sistema centralizado.
+        </p>
+        <p class="project-desc" data-i18n="project1.p2">
+          <strong>Qué hace:</strong> registra ventas, compras y gastos diarios por sucursal;
+          gestiona precios y cálculos de rendimiento de carne por categoría de producto; valora
+          el stock mediante un proceso de pesaje; y calcula automáticamente el costo de mercadería
+          vendida, la ganancia y el margen neto por sucursal, con reportes históricos entre
+          períodos. El acceso por roles limita al personal de tienda a las operaciones diarias,
+          mientras que el dueño ve las finanzas completas.
+        </p>
+        <p class="project-desc" data-i18n="project1.p3">
+          <strong>Enfoque:</strong> Desarrollo Guiado por Especificaciones — una especificación
+          funcional y técnica exhaustiva, validada con el cliente antes de escribir código, para
+          definir de antemano la lógica de negocio compleja (fórmulas de rendimiento, comisiones
+          por medio de pago, arrastre de stock entre períodos).
+        </p>
+        <div class="tag-list">
+          <span class="tag">Flutter Web</span>
+          <span class="tag">Riverpod</span>
+          <span class="tag">go_router</span>
+          <span class="tag">Supabase</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">Row Level Security</span>
+          <span class="tag">Vercel</span>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-header">
+          <div>
+            <span class="project-period" data-i18n="project2.period">En producción</span>
+            <h3 data-i18n="project2.title">Sistema de Gestión de Distribución Mayorista</h3>
+          </div>
+        </div>
+        <p class="project-desc" data-i18n="project2.p1">
+          Única desarrolladora de una PWA en producción que gestiona ventas, cuentas por cobrar,
+          cobranzas y logística de entregas para un distribuidor mayorista de carnes.
+        </p>
+        <ul class="project-list">
+          <li data-i18n="project2.li1">App en Flutter Web (~11K líneas de código) sobre Supabase, con control de acceso
+            basado en roles (autenticación SHA-256, 12 permisos granulares).</li>
+          <li data-i18n="project2.li2">Asignación de pagos FIFO, saldos por cliente, seguimiento de deudas vencidas,
+            notas de crédito/débito y 5 tipos de reportes en PDF.</li>
+          <li data-i18n="project2.li3">Módulo semanal de logística de entregas (hojas de ruta por cliente, tipo de carne
+            y sucursal), optimizador de rutas de cobranza basado en GPS, y flujo de aprobación
+            de pedidos.</li>
+          <li data-i18n="project2.li4">Asistente con IA (Anthropic Claude) que convierte frases en lenguaje natural en
+            acciones de entrega estructuradas, con matching difuso de clientes y un proxy
+            server-side mediante Edge Function.</li>
+          <li data-i18n="project2.li5">Desplegado en Vercel como PWA instalable para iOS/Android, con integraciones de
+            WhatsApp y Google Maps.</li>
+        </ul>
+        <div class="tag-list">
+          <span class="tag">Dart</span>
+          <span class="tag">Flutter Web</span>
+          <span class="tag">Supabase</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">IA / LLM</span>
+          <span class="tag">Vercel</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS (oculto hasta tener contenido real) -->
+  <section class="section section-alt" id="testimonios" hidden>
+    <div class="container">
+      <p class="section-tag reveal">Testimonios</p>
+      <h2 class="section-title reveal">Lo que dicen mis clientes</h2>
+      <div class="cards-grid" id="testimonials-grid">
+        <!-- Agregar acá cada testimonio con esta estructura:
+        <blockquote class="testimonial-card reveal">
+          <p>"Texto del testimonio."</p>
+          <footer>— Nombre, Cargo / Empresa</footer>
+        </blockquote>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section" id="contacto">
+    <div class="container contact-inner">
+      <p class="section-tag reveal" data-i18n="contact.tag">Contacto</p>
+      <h2 class="section-title reveal" data-i18n="contact.title">¿Tenés un proyecto en mente?</h2>
+      <p class="about-text reveal" data-i18n="contact.subtitle">
+        Contame qué necesitás y charlamos sin compromiso. Respondo rápido.
+      </p>
+      <div class="contact-grid reveal">
+        <a class="contact-card" href="mailto:milifsabate@gmail.com">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M4 6l8 7 8-7"/></svg>
+          <div>
+            <span class="contact-label" data-i18n="contact.email.label">Email</span>
+            <span class="contact-value">milifsabate@gmail.com</span>
+          </div>
+        </a>
+        <a class="contact-card" href="https://wa.me/5493874159555" target="_blank" rel="noopener">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          <div>
+            <span class="contact-label" data-i18n="contact.whatsapp.label">WhatsApp</span>
+            <span class="contact-value">+54 9 387 415-9555</span>
+          </div>
+        </a>
+        <a class="contact-card" href="https://www.linkedin.com/in/milifs/" target="_blank" rel="noopener">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z" opacity="0"/><path d="M6.5 9h0M6.5 9v9M6.5 6.5h0M11 18v-5.5c0-1.7 1-2.5 2.5-2.5S16 10.8 16 12.5V18M11 12v6"/></svg>
+          <div>
+            <span class="contact-label" data-i18n="contact.linkedin.label">LinkedIn</span>
+            <span class="contact-value">in/milifs</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> Mili Fernández Sabaté</span>
+      <span data-i18n="footer.tagline">Hecho a medida, como todo lo demás.</span>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
