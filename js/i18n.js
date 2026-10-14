@@ -58,10 +58,11 @@ const translations = {
     "project2.li5": "Desplegado en Vercel como PWA instalable para iOS/Android, con integraciones de WhatsApp y Google Maps.",
 
     "project3.period": "Ago 2026 — Presente",
-    "project3.title": "Sistema de Gestión para Carnicerías",
-    "project3.p1": "Un sistema para manejar el día a día del mostrador de una carnicería: vender, cobrar, cerrar la caja y entregar la factura. A diferencia de un desarrollo a medida para un solo cliente, está pensado como producto, para que cualquier carnicería pueda usarlo. La primera en hacerlo es una cadena de 4 sucursales.",
-    "project3.p2": '<strong>En el mostrador:</strong> el vendedor arma la venta en segundos —el corte por kilo o por unidad, el medio de pago— y la factura sale en el momento, ya válida ante AFIP. Los clientes que compran fiado tienen su cuenta corriente, y el sistema avisa solo cuando alguien se pasa del límite que le fijaron.',
-    "project3.p3": '<strong>Al cerrar el día:</strong> el sistema calcula cuánta plata debería haber en la caja y la compara con lo que realmente se contó, dejando asentada cualquier diferencia. Cada sucursal maneja sus propios productos y precios, y el dueño ve todo desde un mismo lugar. Sumar una sucursal nueva es cargar sus datos y empezar a vender.',
+    "project3.title": "Sistema de Gestión para Comercios",
+    "project3.p1": "Un sistema para llevar el día a día de un comercio: vender, cobrar, controlar la caja y emitir la factura, todo en el mismo lugar. No está hecho a medida de un solo cliente: es un producto pensado por módulos, para que cada negocio use los que necesita y sume el resto cuando le haga falta.",
+    "project3.p2": '<strong>En el mostrador:</strong> el vendedor arma la venta en segundos —el producto por peso o por unidad, el medio de pago— y la factura sale en el momento, ya válida ante AFIP. Los clientes que compran a cuenta tienen su cuenta corriente, y el sistema avisa solo cuando alguien se pasa del límite que le fijaron.',
+    "project3.p3": '<strong>Al cerrar el día:</strong> calcula cuánta plata debería haber en la caja y la compara con lo que realmente se contó, dejando asentada cualquier diferencia. Cada sucursal maneja sus propios productos y precios, y el dueño ve todo desde un mismo lugar.',
+    "project3.p4": '<strong>Hacia dónde va:</strong> esta primera etapa cubre ventas, caja y facturación, que es lo mínimo que un comercio necesita para empezar a cobrar. Sobre esa base se van sumando módulos —recursos humanos, compras, producción— sin rehacer lo anterior. Su primer cliente es una cadena de 4 sucursales.',
 
     "contact.tag": "Contacto",
     "contact.title": "¿Tenés un proyecto en mente?",
@@ -132,10 +133,11 @@ const translations = {
     "project2.li5": "Deployed to Vercel as an installable iOS/Android PWA with WhatsApp/Google Maps integrations.",
 
     "project3.period": "Aug 2026 — Present",
-    "project3.title": "Management System for Butcher Shops",
-    "project3.p1": "A system for running the daily counter work at a butcher shop: selling, taking payment, closing the register, and handing over the receipt. Unlike software built for one client, this is designed as a product any butcher shop can use. The first one to do so is a 4-location chain.",
-    "project3.p2": '<strong>At the counter:</strong> staff ring up a sale in seconds — the cut by weight or by unit, the payment method — and the receipt prints right away, already valid with the Argentine tax authority. Customers who buy on credit get a running account, and the system flags it on its own when someone goes past their limit.',
-    "project3.p3": '<strong>At closing time:</strong> the system works out how much cash should be in the register and compares it against what was actually counted, logging any gap. Each location runs its own products and prices, and the owner sees everything in one place. Adding a new location is a matter of entering its details and starting to sell.',
+    "project3.title": "Business Management System",
+    "project3.p1": "A system for running a shop's day to day: selling, taking payment, keeping the register straight, and issuing invoices, all in one place. It isn't built for a single client — it's a product organised in modules, so each business turns on what it needs and adds the rest later.",
+    "project3.p2": '<strong>At the counter:</strong> staff ring up a sale in seconds — the item by weight or by unit, the payment method — and the invoice is issued on the spot, already valid with the Argentine tax authority. Customers who buy on account get a running balance, and the system flags it on its own when someone goes past their limit.',
+    "project3.p3": '<strong>At closing time:</strong> it works out how much cash should be in the register and compares it against what was actually counted, logging any gap. Each location runs its own products and prices, and the owner sees everything in one place.',
+    "project3.p4": '<strong>Where it\'s heading:</strong> this first stage covers sales, cash handling, and invoicing — the minimum a shop needs to start taking money. Further modules (HR, purchasing, production) build on that foundation without reworking it. Its first customer is a 4-location chain.',
 
     "contact.tag": "Contact",
     "contact.title": "Have a project in mind?",
