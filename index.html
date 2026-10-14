@@ -232,33 +232,32 @@
         <div class="project-header">
           <div>
             <span class="project-period" data-i18n="project3.period">Ago 2026 — Presente</span>
-            <h3 data-i18n="project3.title">Producto de Punto de Venta y Facturación Electrónica para Carnicerías</h3>
+            <h3 data-i18n="project3.title">Sistema de Gestión para Carnicerías</h3>
           </div>
         </div>
         <p class="project-desc" data-i18n="project3.p1">
-          Producto propio de gestión comercial para carnicerías, pensado desde el día uno para
-          venderse a cualquier comercio del rubro en lugar de desarrollarse a medida para uno solo.
-          El primer cliente es una cadena de 4 sucursales.
+          Un sistema para manejar el día a día del mostrador de una carnicería: vender, cobrar,
+          cerrar la caja y entregar la factura. A diferencia de un desarrollo a medida para un solo
+          cliente, está pensado como producto, para que cualquier carnicería pueda usarlo. La
+          primera en hacerlo es una cadena de 4 sucursales.
         </p>
         <p class="project-desc" data-i18n="project3.p2">
-          <strong>Qué hace:</strong> punto de venta rápido para despachar cortes por kilo o por
-          unidad con distintos medios de pago; apertura y cierre de turno con arqueo de caja
-          (efectivo esperado contra contado, registrando las diferencias); cuenta corriente de
-          clientes con control de límite de crédito; catálogo y precios propios por sucursal; y
-          emisión de comprobantes fiscales electrónicos ante AFIP.
+          <strong>En el mostrador:</strong> el vendedor arma la venta en segundos —el corte por kilo
+          o por unidad, el medio de pago— y la factura sale en el momento, ya válida ante AFIP. Los
+          clientes que compran fiado tienen su cuenta corriente, y el sistema avisa solo cuando
+          alguien se pasa del límite que le fijaron.
         </p>
         <p class="project-desc" data-i18n="project3.p3">
-          <strong>Arquitectura:</strong> multi-tenant — una sola base de datos atiende a todos los
-          clientes, con los datos de cada carnicería aislados mediante Row Level Security. Dar de
-          alta un comercio nuevo es configurar su marca, sucursales, catálogo y datos fiscales, sin
-          tocar código. La facturación electrónica corre en un servicio backend separado que
-          custodia los certificados fiscales de cada cliente y nunca se expone en el navegador.
+          <strong>Al cerrar el día:</strong> el sistema calcula cuánta plata debería haber en la caja
+          y la compara con lo que realmente se contó, dejando asentada cualquier diferencia. Cada
+          sucursal maneja sus propios productos y precios, y el dueño ve todo desde un mismo lugar.
+          Sumar una sucursal nueva es cargar sus datos y empezar a vender.
         </p>
         <div class="tag-list">
           <span class="tag">Flutter Web</span>
           <span class="tag">Supabase</span>
           <span class="tag">PostgreSQL</span>
-          <span class="tag">Multi-tenant / RLS</span>
+          <span class="tag">Multi-sucursal</span>
           <span class="tag">Facturación AFIP</span>
           <span class="tag">Node.js</span>
           <span class="tag">Vercel</span>

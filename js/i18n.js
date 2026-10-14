@@ -58,10 +58,10 @@ const translations = {
     "project2.li5": "Desplegado en Vercel como PWA instalable para iOS/Android, con integraciones de WhatsApp y Google Maps.",
 
     "project3.period": "Ago 2026 — Presente",
-    "project3.title": "Producto de Punto de Venta y Facturación Electrónica para Carnicerías",
-    "project3.p1": "Producto propio de gestión comercial para carnicerías, pensado desde el día uno para venderse a cualquier comercio del rubro en lugar de desarrollarse a medida para uno solo. El primer cliente es una cadena de 4 sucursales.",
-    "project3.p2": '<strong>Qué hace:</strong> punto de venta rápido para despachar cortes por kilo o por unidad con distintos medios de pago; apertura y cierre de turno con arqueo de caja (efectivo esperado contra contado, registrando las diferencias); cuenta corriente de clientes con control de límite de crédito; catálogo y precios propios por sucursal; y emisión de comprobantes fiscales electrónicos ante AFIP.',
-    "project3.p3": '<strong>Arquitectura:</strong> multi-tenant — una sola base de datos atiende a todos los clientes, con los datos de cada carnicería aislados mediante Row Level Security. Dar de alta un comercio nuevo es configurar su marca, sucursales, catálogo y datos fiscales, sin tocar código. La facturación electrónica corre en un servicio backend separado que custodia los certificados fiscales de cada cliente y nunca se expone en el navegador.',
+    "project3.title": "Sistema de Gestión para Carnicerías",
+    "project3.p1": "Un sistema para manejar el día a día del mostrador de una carnicería: vender, cobrar, cerrar la caja y entregar la factura. A diferencia de un desarrollo a medida para un solo cliente, está pensado como producto, para que cualquier carnicería pueda usarlo. La primera en hacerlo es una cadena de 4 sucursales.",
+    "project3.p2": '<strong>En el mostrador:</strong> el vendedor arma la venta en segundos —el corte por kilo o por unidad, el medio de pago— y la factura sale en el momento, ya válida ante AFIP. Los clientes que compran fiado tienen su cuenta corriente, y el sistema avisa solo cuando alguien se pasa del límite que le fijaron.',
+    "project3.p3": '<strong>Al cerrar el día:</strong> el sistema calcula cuánta plata debería haber en la caja y la compara con lo que realmente se contó, dejando asentada cualquier diferencia. Cada sucursal maneja sus propios productos y precios, y el dueño ve todo desde un mismo lugar. Sumar una sucursal nueva es cargar sus datos y empezar a vender.',
 
     "contact.tag": "Contacto",
     "contact.title": "¿Tenés un proyecto en mente?",
@@ -132,10 +132,10 @@ const translations = {
     "project2.li5": "Deployed to Vercel as an installable iOS/Android PWA with WhatsApp/Google Maps integrations.",
 
     "project3.period": "Aug 2026 — Present",
-    "project3.title": "Point-of-Sale & E-Invoicing Product for Butcher Shops",
-    "project3.p1": "An off-the-shelf retail management product for butcher shops, designed from day one to be sold to any shop in the trade rather than built for a single client. First customer: a 4-location chain.",
-    "project3.p2": '<strong>What it does:</strong> a fast point of sale for ringing up cuts by weight or by unit across payment methods; shift open/close with cash reconciliation (expected vs. counted, with discrepancies logged); customer store-credit accounts with credit-limit enforcement; per-location catalog and pricing; and electronic tax receipts issued through AFIP, the Argentine tax authority.',
-    "project3.p3": '<strong>Architecture:</strong> multi-tenant — a single database serves every customer, with each shop\'s data isolated via Row Level Security. Onboarding a new shop means configuring its branding, locations, catalog, and tax details — no code changes. E-invoicing runs in a separate backend service that holds each customer\'s tax certificates and is never exposed to the browser.',
+    "project3.title": "Management System for Butcher Shops",
+    "project3.p1": "A system for running the daily counter work at a butcher shop: selling, taking payment, closing the register, and handing over the receipt. Unlike software built for one client, this is designed as a product any butcher shop can use. The first one to do so is a 4-location chain.",
+    "project3.p2": '<strong>At the counter:</strong> staff ring up a sale in seconds — the cut by weight or by unit, the payment method — and the receipt prints right away, already valid with the Argentine tax authority. Customers who buy on credit get a running account, and the system flags it on its own when someone goes past their limit.',
+    "project3.p3": '<strong>At closing time:</strong> the system works out how much cash should be in the register and compares it against what was actually counted, logging any gap. Each location runs its own products and prices, and the owner sees everything in one place. Adding a new location is a matter of entering its details and starting to sell.',
 
     "contact.tag": "Contact",
     "contact.title": "Have a project in mind?",
