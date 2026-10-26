@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body {
+    width: 1200px; height: 630px; overflow: hidden;
+    background: #0a0d12;
+    background-image:
+      radial-gradient(620px circle at 12% 18%, #7c5cff40, transparent 62%),
+      radial-gradient(560px circle at 88% 26%, #2fe6b830, transparent 62%);
+    display: flex; align-items: center; gap: 64px;
+    padding: 0 84px;
+    font-family: Inter, sans-serif; color: #e8ecf1;
+  }
+  .eyebrow {
+    font-family: "JetBrains Mono", monospace; font-size: 20px; font-weight: 500;
+    letter-spacing: 2px; text-transform: uppercase; color: #2fe6b8; margin-bottom: 26px;
+  }
+  h1 {
+    font-family: "Space Grotesk", sans-serif; font-size: 68px; font-weight: 700;
+    line-height: 1.1; letter-spacing: -1.5px;
+  }
+  .grad {
+    background: linear-gradient(120deg, #7c5cff, #2fe6b8);
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+  }
+  .sub { font-size: 25px; color: #9aa4b2; margin-top: 30px; line-height: 1.45; }
+  .ring {
+    flex: 0 0 auto; width: 330px; height: 330px; border-radius: 50%; padding: 6px;
+    background: linear-gradient(135deg, #7c5cff, #2fe6b8);
+  }
+  .ring img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; display: block; }
+</style>
+</head>
+<body>
+  <div>
+    <p class="eyebrow">Salta, Argentina</p>
+    <h1>Construyo <span class="grad">software a medida</span><br />para negocios reales.</h1>
+    <p class="sub">Mili Fernández Sabaté — Ingeniera en Informática<br />y desarrolladora full-stack freelance</p>
+  </div>
+  <div class="ring"><img src="assets/profile.jpg" alt="" /></div>
+</body>
+</html>
