@@ -2,16 +2,21 @@
 
 Landing page personal para presentarme como desarrolladora de software a medida.
 
-Sitio estático (HTML/CSS/JS puro, sin frameworks ni build step).
+Sitio estático (HTML/CSS/JS puro, sin frameworks ni build step), en línea en
+**https://milifs.github.io/**
 
 ## Estructura
 
 ```
-index.html       # Markup del sitio (una sola página)
-css/styles.css   # Estilos (dark mode, diseño responsive)
-js/i18n.js       # Diccionario de traducciones ES/EN
-js/main.js       # Nav móvil, scroll reveal, switch de idioma
-assets/          # Imágenes (foto de perfil)
+index.html                    # Markup del sitio (una sola página)
+css/styles.css                # Estilos (dark mode, diseño responsive)
+js/i18n.js                    # Diccionario de traducciones ES/EN
+js/main.js                    # Nav móvil, scroll reveal, switch de idioma
+assets/profile.jpg            # Foto de perfil
+assets/og.jpg                 # Preview 1200x630 al compartir el link
+assets/favicon.svg            # Favicon
+assets/apple-touch-icon.png   # Ícono para pantalla de inicio en iOS
+tools/                        # Plantillas para regenerar og.jpg y el ícono
 ```
 
 ## Desarrollo local
@@ -24,19 +29,24 @@ Luego abrir http://localhost:5173
 
 ## Deploy
 
-Al ser un sitio 100% estático, no requiere build command ni variables de entorno.
+GitHub Pages, desde la rama `main` y la carpeta raíz
+(Settings → Pages → Source). No hay build command ni variables de entorno:
+cada push a `main` republica el sitio en un par de minutos.
 
-### Opción A: Vercel
-1. Crear cuenta / loguearse en https://vercel.com
-2. "Add New Project" → importar este repo (o usar `vercel` CLI desde esta carpeta)
-3. Framework preset: **Other** (sin build command, output directory = raíz)
-4. Deploy
+## Notas
 
-### Opción B: GitHub Pages
-1. Subir este repo a GitHub
-2. Settings → Pages → Source: rama `main`, carpeta `/ (root)`
-3. Guardar — el sitio queda publicado en `https://<usuario>.github.io/<repo>/`
+- **Metadatos para compartir:** `index.html` declara Open Graph y Twitter Card
+  con URLs absolutas a `https://milifs.github.io/`. Si el dominio cambia, hay
+  que actualizarlas a mano. Después de cambiar `assets/og.jpg` conviene pasar la
+  URL por el Post Inspector de LinkedIn para que refresque su cache.
+
+- **Clase `js` en el `<html>`:** un script inline en el `<head>` la agrega, y el
+  CSS oculta los elementos `.reveal` solo cuando está presente. Así, si el JS no
+  carga, el contenido se ve igual en lugar de quedar invisible.
 
 ## Pendiente
 
-- Sección de Testimonios: está en el HTML pero oculta (`hidden`) hasta tener el testimonio del marido de Mili. Buscar el comentario `<!-- Testimonials -->` en `index.html` para reactivarla.
+- **Sección de Testimonios:** está en el HTML pero oculta con `hidden` hasta
+  tener testimonios reales. Buscar el comentario `<!-- TESTIMONIOS -->` en
+  `index.html`, sumar cada testimonio con la estructura que figura ahí y quitar
+  el atributo `hidden` de la sección.
