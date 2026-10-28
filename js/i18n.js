@@ -64,6 +64,13 @@ const translations = {
     "project3.p3": '<strong>Al cerrar el día:</strong> calcula cuánta plata debería haber en la caja y la compara con lo que realmente se contó, dejando asentada cualquier diferencia. Cada sucursal maneja sus propios productos y precios, y el dueño ve todo desde un mismo lugar.',
     "project3.p4": '<strong>Hacia dónde va:</strong> esta primera etapa cubre ventas, caja y facturación, que es lo mínimo que un comercio necesita para empezar a cobrar. Sobre esa base se van sumando módulos —recursos humanos, compras, producción— sin rehacer lo anterior. Su primer cliente es una cadena de 4 sucursales.',
 
+    "project4.period": "Oct 2026 — Presente",
+    "project4.title": "Sitio Web para un Estudio de Arquitectura",
+    "project4.p1": "Un estudio de arquitectura de Yerba Buena, Tucumán, mostraba su trabajo solo por Instagram y por fotos que mandaba por mail. Les armé el sitio del estudio: una portada con la obra elegida, el portfolio completo con la ficha de cada obra, quiénes son y cómo contactarlos.",
+    "project4.p2": '<strong>Las obras las carga el estudio:</strong> tienen un panel propio donde suben una obra nueva con sus fotos y eligen cuáles aparecen en la portada. Guardan y el sitio se actualiza solo, sin tocar código y sin pedirme nada. Cada foto que les pasa el fotógrafo pesa varios megas; el panel las reduce antes de subirlas, así el sitio no se vuelve lento a medida que el estudio suma obras.',
+    "project4.p3": '<strong>Para que los encuentren:</strong> cada obra tiene su propia dirección web con su descripción, y el estudio figura como negocio local de Yerba Buena con dirección, horarios y teléfono, que es lo que usa Google para mostrarlo a quien busca un arquitecto en la zona. Desde cualquier página se puede escribir por WhatsApp o dejar una consulta en el formulario.',
+    "project4.p4": '<strong>Rápido y accesible:</strong> el sitio saca 97 sobre 100 en velocidad y 100 en accesibilidad en la auditoría de Google, medido en celular. Hoy está publicado sin aparecer en buscadores a propósito: el estudio lo puede mirar y compartir mientras termina de cargar sus obras reales, y se habilita para Google cuando el contenido esté completo.',
+
     "contact.tag": "Contacto",
     "contact.title": "¿Tenés un proyecto en mente?",
     "contact.subtitle": "Contame qué necesitás y charlamos sin compromiso. Respondo rápido.",
@@ -138,6 +145,13 @@ const translations = {
     "project3.p2": '<strong>At the counter:</strong> staff ring up a sale in seconds — the item by weight or by unit, the payment method — and the invoice is issued on the spot, already valid with the Argentine tax authority. Customers who buy on account get a running balance, and the system flags it on its own when someone goes past their limit.',
     "project3.p3": '<strong>At closing time:</strong> it works out how much cash should be in the register and compares it against what was actually counted, logging any gap. Each location runs its own products and prices, and the owner sees everything in one place.',
     "project3.p4": '<strong>Where it\'s heading:</strong> this first stage covers sales, cash handling, and invoicing — the minimum a shop needs to start taking money. Further modules (HR, purchasing, production) build on that foundation without reworking it. Its first customer is a 4-location chain.',
+
+    "project4.period": "Oct 2026 — Present",
+    "project4.title": "Website for an Architecture Studio",
+    "project4.p1": "An architecture studio in Yerba Buena, Tucumán, had nowhere to show its work beyond Instagram and photos sent by email. I built the studio's site: a cover featuring one selected project, the full portfolio with a page for each project, who they are, and how to reach them.",
+    "project4.p2": '<strong>The studio uploads its own work:</strong> they have their own panel where they add a new project with its photos and pick which ones appear on the cover. They hit save and the site updates itself — no code, and nothing to ask me for. Every photo the photographer sends weighs several megabytes; the panel shrinks each one before it goes up, so the site does not get slower as the studio adds work.',
+    "project4.p3": '<strong>So people find them:</strong> each project has its own web address and description, and the studio is listed as a local business in Yerba Buena with address, opening hours, and phone number — which is what Google uses to show it to someone looking for an architect nearby. From any page you can message them on WhatsApp or send an enquiry through the form.',
+    "project4.p4": '<strong>Fast and accessible:</strong> the site scores 97 out of 100 for speed and 100 for accessibility in Google\'s audit, measured on mobile. For now it is published but deliberately kept out of search results: the studio can look at it and share it while they finish uploading their real projects, and it goes live for Google once the content is complete.',
 
     "contact.tag": "Contact",
     "contact.title": "Have a project in mind?",
